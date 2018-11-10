@@ -1,12 +1,43 @@
 body {
-  font-family: Helvetica;
+  font-family: "Helvetica", sans-serif;
   font-size: 22px;
   color: seashell;
   background-color: black;
   opacity: 0.9;
   display: block;
+  margin: 0;
+  text-align: center;
 }
 
 header {
+  z-index: 1;
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  align-items: center;
+  background-color: black;
   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+header img {
+  height: 50px;
+  padding-left: 10px;
+}
+
+nav {
+  text-align: right;
+  flex-grow: 1;
+  display: block;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+a {
+  color: seashell;
+  padding: 0 10px;
 }
