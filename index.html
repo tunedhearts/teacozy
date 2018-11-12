@@ -2,67 +2,81 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="/Users/christiangarcia/Desktop/Projects/teacozy/resources/style.css">
+    <link rel="stylesheet" href="style.css">
     <title></title>
   </head>
   <body>
 <!--header section-->
     <header>
-      <img src="/Users/christiangarcia/Desktop/Projects/teacozy/resources/images/img-tea-cozy-logo.png" alt="">
+      <img src="resources/images/img-tea-cozy-logo.png" alt="">
       <nav>
-        <span><a href="#">Mission</a></span>
-        <span><a href="#">Featured Tea</a></span>
-        <span><a href="#">Locations</a></span>
+        <span><a href="#mission">Mission</a></span>
+        <span><a href="#store">Featured Tea</a></span>
+        <span><a href="#locations">Locations</a></span>
       </nav>
     </header>
 <!--Main Section-->
     <main>
 <!--mission section-->
-      <div class="mission">
+      <div id="mission" class="flex-container">
         <div class="mission text">
           <h2>Our mission</h2>
           <h3>Handpicked, Artisanally Curated, Free Range, Sustainable, Small Batch, Fair Trade, Organic Tea</h3>
         </div>
       </div>
   <!--tea of the month section-->
-      <div class="month">
-        <h2>Tea of the Month</h2>
-        <h3>What's Steeping at The Tea Cozy?</h3>
-        <div class="berry blitz">
-          <h3>Fall Berry Blitz Tea</h3>
+      <div id="store" class="month">
+        <div class="banner">
+          <h2>Tea of the Month</h2>
+          <h3>What's Steeping at The Tea Cozy?</h3>
         </div>
-        <div class="rum">
-          <h3>Spiced Rum Tea</h3>
-        </div>
-        <div class="donut">
-          <h3>Seasonal Donuts</h3>
-        </div>
-        <div class="myrtle">
-          <h3>Myrtle Ave Tea</h3>
-        </div>
-        <div class="bedford">
-          <h3>Bedford Bizarre Tea</h3>
+        <div class="flex-container items">
+          <div class="item">
+            <img src="resources/images/berryblitz.jpg" alt="">
+            <h3>Fall Berry Blitz Tea</h3>
+          </div>
+          <div class="item">
+            <img src="resources/images/spiced-rum.jpg" alt="">
+            <h3>Spiced Rum Tea</h3>
+          </div>
+          <div class="item">
+            <img src="resources/images/img-donut.jpg" alt="">
+            <h3>Seasonal Donuts</h3>
+          </div>
+          <div class="item">
+            <img src="resources/images/myrtle-ave.jpg" alt="">
+            <h3>Myrtle Ave Tea</h3>
+          </div>
+          <div class="item">
+            <img src="resources/images/bedford-bizarre.jpg" alt="">
+            <h3>Bedford Bizarre Tea</h3>
+          </div>
         </div>
       </div>
+      <br>
+      <br>
   <!--Locations section-->
-      <div class="locations">
-        <div class="box">
-          <h3>Downtown</h3>
-          <h4>384 West 4th St</h4>
-          <h4>Suite 108</h4>
-          <h4>Portland, Maine</h4>
-        </div>
-        <div class="box">
-          <h3>East Bayside</h3>
-          <h4>3433 Phisherman's Avenue</h4>
-          <h4>(Northwest Corner)</h4>
-          <h4>Portland, Maine</h4>
-        </div>
-        <div class="box">
-          <h3>Oakdale</h3>
-          <h4>515 Crescent Avenue</h4>
-          <h4>Second Floor</h4>
-          <h4>Portland, Maine</h4>
+      <div class="locations" id="locations">
+        <h2>Locations</h2>
+        <div class="flex-container">
+          <div class="box">
+            <h3>Downtown</h3>
+            <h4>384 West 4th St</h4>
+            <h4>Suite 108</h4>
+            <h4>Portland, Maine</h4>
+          </div>
+          <div class="box">
+            <h3>East Bayside</h3>
+            <h4>3433 Phisherman's Avenue</h4>
+            <h4>(Northwest Corner)</h4>
+            <h4>Portland, Maine</h4>
+          </div>
+          <div class="box">
+            <h3>Oakdale</h3>
+            <h4>515 Crescent Avenue</h4>
+            <h4>Second Floor</h4>
+            <h4>Portland, Maine</h4>
+          </div>
         </div>
       </div>
     </main>
@@ -73,6 +87,6 @@
       <h5>917-555-8904</h5>
     </div>
 <!--copyright section-->
-<h5>copyright The Tea Cozy 2017</h5>
+<h5 id="copyright">copyright The Tea Cozy 2017</h5>
   </body>
 </html>
